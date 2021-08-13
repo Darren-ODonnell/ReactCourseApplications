@@ -3,7 +3,7 @@ import faker from 'faker';
 
 const PlayerDetail = (props) => {
     return (
-        <span className="comment" >
+        <div className="comment">
                 <a href="/" className="avatar">
                     <img alt = "avatar" src={faker.image.image()} />
                 </a>
@@ -26,7 +26,7 @@ const PlayerDetail = (props) => {
 
                     </div>
             </div>
-        </span>
+        </div>
     );
 }
 
